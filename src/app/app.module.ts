@@ -13,6 +13,9 @@ import { BaiTuLam6Component } from './bai-tu-lam6/bai-tu-lam6.component';
 import { BaiTuLam7Component } from './bai-tu-lam7/bai-tu-lam7.component';
 import { BaiTuLam4Component } from './bai-tu-lam4/bai-tu-lam4.component';
 import { BaiTuLam8Component } from './bai-tu-lam8/bai-tu-lam8.component';
+import { BaiMau1Component } from './bai-mau1/bai-mau1.component';
+import { BaiMau2Component } from './bai-mau2/bai-mau2.component';
+import { BaiMau3Component } from './bai-mau3/bai-mau3.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { BaiTuLam8Component } from './bai-tu-lam8/bai-tu-lam8.component';
     BaiTuLam6Component,
     BaiTuLam7Component,
     BaiTuLam4Component,
-    BaiTuLam8Component
+    BaiTuLam8Component,
+    BaiMau1Component,
+    BaiMau2Component,
+    BaiMau3Component
   ],
   imports: [
     BrowserModule,
