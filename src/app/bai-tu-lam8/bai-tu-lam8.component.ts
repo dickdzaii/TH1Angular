@@ -37,7 +37,7 @@ export class HinhTamGiac{
     }else return false;
   }
   public dientich():number{
-    return Math.sqrt((this.a+ this.b+ this.c)*( this.b+ this.c- this.a)*( this.a+ this.b- this.c)*( this.a+ this.c-this.b));
+    return Math.sqrt((this.a+ this.b+ this.c)*( this.b+ this.c- this.a)*( this.a+ this.b- this.c)*( this.a+ this.c-this.b))/4;
   }
  
 }
