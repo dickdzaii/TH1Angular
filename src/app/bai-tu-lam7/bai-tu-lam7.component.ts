@@ -68,7 +68,7 @@ public giaipttp(){
     } 
     case 1:{
       if(nghiem[0]>=0){
-         nghiemcuapt=[Math.sqrt(nghiem[0])];
+         nghiemcuapt=[Math.sqrt(nghiem[0]),-Math.sqrt(nghiem[0])];
         return nghiemcuapt;
       }else return null;
       break;
